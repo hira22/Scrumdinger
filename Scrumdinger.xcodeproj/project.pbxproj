@@ -53,6 +53,7 @@
 		B6C694BC25C9C78100A76C69 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		B6C694C225C9CCC800A76C69 /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		B6C694C725CA3A6900A76C69 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		B6C694CC25CA3CC100A76C69 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 		B6C6947A25C870D400A76C69 = {
 			isa = PBXGroup;
 			children = (
+				B6C694CC25CA3CC100A76C69 /* README.md */,
 				B6C6948525C870D400A76C69 /* Scrumdinger */,
 				B6C6949725C870D600A76C69 /* ScrumdingerTests */,
 				B6C694A225C870D600A76C69 /* ScrumdingerUITests */,

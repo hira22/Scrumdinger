@@ -16,6 +16,7 @@
 		B6C694B825C9C6C600A76C69 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C694B725C9C6C600A76C69 /* DailyScrum.swift */; };
 		B6C694BD25C9C78100A76C69 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C694BC25C9C78100A76C69 /* CardView.swift */; };
 		B6C694C325C9CCC800A76C69 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C694C225C9CCC800A76C69 /* Color+Codable.swift */; };
+		B6C694C825CA3A6900A76C69 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C694C725CA3A6900A76C69 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B6C694B725C9C6C600A76C69 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		B6C694BC25C9C78100A76C69 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		B6C694C225C9CCC800A76C69 /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		B6C694C725CA3A6900A76C69 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				B6C694B725C9C6C600A76C69 /* DailyScrum.swift */,
 				B6C694BC25C9C78100A76C69 /* CardView.swift */,
 				B6C694C125C9CCC800A76C69 /* Models */,
+				B6C694C725CA3A6900A76C69 /* ScrumsView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6C6948925C870D400A76C69 /* MeetingView.swift in Sources */,
+				B6C694C825CA3A6900A76C69 /* ScrumsView.swift in Sources */,
 				B6C694B825C9C6C600A76C69 /* DailyScrum.swift in Sources */,
 				B6C694BD25C9C78100A76C69 /* CardView.swift in Sources */,
 				B6C694C325C9CCC800A76C69 /* Color+Codable.swift in Sources */,

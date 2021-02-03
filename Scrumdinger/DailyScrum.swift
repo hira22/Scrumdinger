@@ -35,3 +35,17 @@ extension DailyScrum {
     }
     
 }
+
+extension DailyScrum {
+    // NOTE: ネスト型で定義することで Foundation.Data と区別できる
+    struct Data {
+        var title: String = ""
+        var attendees: [String] = []
+        var lengthInMinutes: Double = 5.0
+        var color: Color = .random
+    }
+    
+    var data: Data {
+        Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), color: color)
+    }
+}

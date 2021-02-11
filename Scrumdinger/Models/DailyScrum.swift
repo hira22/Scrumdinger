@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DailyScrum: Identifiable {
+struct DailyScrum: Identifiable, Codable {
     // MARK: - Identifiable
     let id: UUID
     

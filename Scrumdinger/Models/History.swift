@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct History: Identifiable {
+struct History: Identifiable, Codable {
     internal init(id: UUID = UUID(), date: Date = Date(), attendees: [String], lengthInMinutes: Int) {
         self.id = id
         self.date = date
